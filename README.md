@@ -1,6 +1,6 @@
 # nanoGPT
 
-A **minimal, fast, and readable implementation of GPT-style Transformer language models**, created by **Andrej Karpathy**. This repository is designed for **educational purposes**, research prototyping, and gaining a **deep understanding of how large language models (LLMs) work end-to-end**.
+A **minimal, fast, and readable implementation of GPT-style Transformer language models**, similar to nanoGPT created by **Andrej Karpathy**.
 
 nanoGPT strips GPT down to its essentials while remaining powerful enough to train state-of-the-art language models on modern hardware.
 
