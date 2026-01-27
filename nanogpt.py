@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 from torch.nn import functional as F
 
+#configuration
 batch_size = 64
 block_size = 256
 max_iters = 5000
@@ -14,6 +15,7 @@ n_head = 6
 n_layer = 6
 dropout = 0.2
 
+#input file
 !wget https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
 with open('input.txt', 'r', encoding='utf-8') as f:
    text = f.read()
