@@ -18,27 +18,6 @@ If you want to truly *understand* how models like GPT-2 / GPT-3 work under the h
 
 ---
 
-## 📂 Repository Structure
-
-```text
-nanoGPT/
-│
-├── train.py           # Main training loop
-├── model.py           # GPT model definition
-├── sample.py          # Text generation / inference
-├── config/            # Training configurations
-│   ├── train_shakespeare_char.py
-│   ├── train_openwebtext.py
-│   └── ...
-├── data/              # Dataset preparation scripts
-│   ├── shakespeare_char/
-│   ├── openwebtext/
-│   └── ...
-└── README.md
-```
-
----
-
 ## 🧠 Model Architecture
 
 nanoGPT implements a **decoder-only Transformer** similar to GPT-2:
@@ -184,10 +163,8 @@ This project is intended for **educational and research purposes only**. It is *
 
 ## 🙌 Credits
 
-Created and maintained by **Andrej Karpathy**.
-
 Inspired by:
-
+* Andrej Karpathy's nanoGPT
 * OpenAI GPT models
 * PyTorch ecosystem
 
