@@ -2,8 +2,7 @@
 
 A **minimal, fast, and readable implementation of GPT-style Transformer language models**, similar to nanoGPT created by **Andrej Karpathy**.
 
-nanoGPT strips GPT down to its essentials while remaining powerful enough to train state-of-the-art language models on modern hardware.
-
+This is the decoder-only model, which generates text in a similar style to the input file.
 ---
 
 ## 🚀 Why nanoGPT?
