@@ -6,18 +6,6 @@ This is the decoder-only model, which generates text in a similar style to the i
 
 ---
 
-## 🚀 Why nanoGPT?
-
-* 📖 **Extremely readable codebase** (single-file training loop)
-* ⚡ **Fast training** using PyTorch 2.0, CUDA, and Flash Attention
-* 🧠 **Faithful GPT architecture** (Decoder-only Transformer)
-* 🛠️ **Easy experimentation** with datasets, model sizes, and configs
-* 🎓 **Perfect for learning LLM internals** (attention, tokens, loss, sampling)
-
-If you want to truly *understand* how models like GPT-2 / GPT-3 work under the hood — this repo is gold.
-
----
-
 ## 🧠 Model Architecture
 
 nanoGPT implements a **decoder-only Transformer** similar to GPT-2:
