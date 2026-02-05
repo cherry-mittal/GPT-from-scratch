@@ -26,20 +26,10 @@ using causal self-attention.
 
 ## 📦 Installation
 
-### Requirements
-
-* Python ≥ 3.8
-* PyTorch ≥ 2.0
-* CUDA-enabled GPU (recommended)
-
-```bash
-pip install torch numpy tqdm
-```
-
 Clone the repository:
 
 ```bash
-git clone https://github.com/karpathy/nanoGPT.git
+git clone https://github.com/cherry-mittal/GPT-from-scratch
 cd nanoGPT
 ```
 
@@ -53,21 +43,9 @@ cd nanoGPT
 python data/shakespeare_char/prepare.py
 ```
 
-This will:
-
-* Download the dataset
-* Tokenize it
-* Create `train.bin` and `val.bin`
-
 ---
 
 ## 🏋️ Training
-
-Train a small GPT model:
-
-```bash
-python train.py config/train_shakespeare_char.py
-```
 
 Key training features:
 
