@@ -29,7 +29,7 @@ using causal self-attention.
 Clone the repository:
 
 ```bash
-git clone https://github.com/cherry-mittal/GPT-from-scratch
+git clone https://github.com/cherry-mittal/GPT-from-scratch.git
 cd nanoGPT
 ```
 
